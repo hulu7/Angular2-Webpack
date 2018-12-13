@@ -53,3 +53,7 @@ __build__/**
 # IDE #
 .idea/
 *.swp
+/.project
+
+# package-lock #
+package-lock.json
