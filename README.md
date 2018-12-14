@@ -32,16 +32,16 @@ $ npm start
 
 # 项目文件结构
 
-* [入口](#getting-started)
-    * [依赖文件](#dependencies)
-    * [安装文件](#installing)
-    * [开发文件](#developing)
-    * [测试代码](#testing)
-    * [生产环境](#production)
-    * [文档](#documentation)
-* [问题和解答](#faq)
-* [TypeScript](#typescript)
-* [许可证](#license)
++ [Getting Started](#getting-started)
+|+ [Dependencies](#dependencies)
+|----+ [Installing](#installing)
+|----+ [Developing](#developing)
+|----+ [Testing](#testing)
+|----+ [Production](#production)
+|----+ [Documentation](#documentation)
++ [Frequently asked questions](#faq)
++ [TypeScript](#typescript)
++ [License](#license)
 
 # 入门
 
@@ -87,7 +87,7 @@ $ npm start
 * 交互模式:
   * 除了上述命令, 你也可以运行命令: `npm run e2e-live`
   * 在编写和调试测试用例之前, 你可以在element explorer中直接使用Protractor命令可以避免运行所有在测试用例.
-  * 更多详细信息可以查看 [Protractor Interactive Mode here](https://github.com/angular/protractor/blob/master/docs/debugging.md#testing-out-protractor-interactively)
+  * 更多详细信息可以查看 [Protractor Interactive Mode](https://github.com/angular/protractor/blob/master/docs/debugging.md#testing-out-protractor-interactively)
 
 ## 生产环境
 
@@ -186,16 +186,17 @@ go to [http://localhost:8080](http://localhost:8080) in your browser.
 
 # Table of Contents
 
-* [Getting Started](#getting-started)
-    * [Dependencies](#dependencies)
-    * [Installing](#installing)
-    * [Developing](#developing)
-    * [Testing](#testing)
-    * [Production](#production)
-    * [Documentation](#documentation)
-* [Frequently asked questions](#faq)
-* [TypeScript](#typescript)
-* [License](#license)
++ [Getting Started](#getting-started)
+|+ [Dependencies](#dependencies)
+|----+ [Installing](#installing)
+|----+ [Developing](#developing)
+|----+ [Testing](#testing)
+|----+ [Production](#production)
+|----+ [Documentation](#documentation)
++ [Frequently asked questions](#faq)
++ [TypeScript](#typescript)
++ [License](#license)
+
 
 # Getting Started
 
