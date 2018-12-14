@@ -1,6 +1,6 @@
 # angular2-webpack 创建者[@hulu7](https://github.com/hulu7)
 [![引用库的状态](https://david-dm.org/preboot/angular-webpack/status.svg)](https://david-dm.org/preboot/angular-webpack#info=dependencies) [![引用库的状态](https://david-dm.org/preboot/angular-webpack/dev-status.svg)](https://david-dm.org/preboot/angular-webpack#info=devDependencies)
-这是一个完整的针使用Webpack构建Angular 2+版本初学者的入门项目
+>这是一个完整的针使用Webpack构建Angular 2+版本初学者的入门项目
 
 本项目是一个Angular的入门项目，主要帮助任何打算快速掌握基于TypeScript的Angular的开发人员。本想项目使用[Webpack](http://webpack.github.io/)进行文件和模板的构建。本项目也使用Protractor进行端到端测试，使用Karmar进行单元测试。使用本项目前请了解如下知识：
 * 了解[Angular](https://angular.io/)的文件和架构在最佳实践。
