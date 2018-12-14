@@ -1,5 +1,4 @@
 # angular2-webpack 创建者[@hulu7](https://github.com/hulu7)（支持中文和英文）
-[![引用库的状态](https://david-dm.org/preboot/angular-webpack/status.svg)](https://david-dm.org/preboot/angular-webpack#info=dependencies) [![引用库的状态](https://david-dm.org/preboot/angular-webpack/dev-status.svg)](https://david-dm.org/preboot/angular-webpack#info=devDependencies)
 
 >这是一个完整的针使用Webpack构建Angular 2+版本初学者的入门项目
 
@@ -153,7 +152,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 
 # angular2-webpack by [@hulu7](https://github.com/hulu7) (Chinese and English)
-[![Dependency Status](https://david-dm.org/preboot/angular-webpack/status.svg)](https://david-dm.org/preboot/angular-webpack#info=dependencies) [![devDependency Status](https://david-dm.org/preboot/angular-webpack/dev-status.svg)](https://david-dm.org/preboot/angular-webpack#info=devDependencies)
 
 A complete, yet simple, starter for Angular v2+ using Webpack.
 
