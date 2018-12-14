@@ -151,7 +151,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 ![image](https://github.com/hulu7/Angular2-Webpack/blob/master/img/hulu7.PNG)
 
 
-# angular2-webpack by [@hulu7](https://github.com/hulu7) (Chinese and English)
+# angular2-webpack by [@hulu7](https://github.com/hulu7) (Chinese & English)
 
 A complete, yet simple, starter for Angular v2+ using Webpack.
 
