@@ -32,16 +32,16 @@ $ npm start
 
 # 项目文件结构
 
-+ [Getting Started](#getting-started)
-|+ [Dependencies](#dependencies)
-|----+ [Installing](#installing)
-|----+ [Developing](#developing)
-|----+ [Testing](#testing)
-|----+ [Production](#production)
-|----+ [Documentation](#documentation)
-+ [Frequently asked questions](#faq)
-+ [TypeScript](#typescript)
-+ [License](#license)
++ [Getting Started](#getting-started)<br>
+|----+ [Dependencies](#dependencies)<br>
+|----+ [Installing](#installing)<br>
+|----+ [Developing](#developing)<br>
+|----+ [Testing](#testing)<br>
+|----+ [Production](#production)<br>
+|----+ [Documentation](#documentation)<br>
++ [Frequently asked questions](#faq)<br>
++ [TypeScript](#typescript)<br>
++ [License](#license)<br>
 
 # 入门
 
@@ -87,7 +87,7 @@ $ npm start
 * 交互模式:
   * 除了上述命令, 你也可以运行命令: `npm run e2e-live`
   * 在编写和调试测试用例之前, 你可以在element explorer中直接使用Protractor命令可以避免运行所有在测试用例.
-  * 更多详细信息可以查看 [Protractor Interactive Mode](https://github.com/angular/protractor/blob/master/docs/debugging.md#testing-out-protractor-interactively)
+  * 更多详细信息可以查看 [Protractor Interactive Mode here](https://github.com/angular/protractor/blob/master/docs/debugging.md#testing-out-protractor-interactively)
 
 ## 生产环境
 
@@ -186,17 +186,16 @@ go to [http://localhost:8080](http://localhost:8080) in your browser.
 
 # Table of Contents
 
-+ [Getting Started](#getting-started)
-|+ [Dependencies](#dependencies)
-|----+ [Installing](#installing)
-|----+ [Developing](#developing)
-|----+ [Testing](#testing)
-|----+ [Production](#production)
-|----+ [Documentation](#documentation)
-+ [Frequently asked questions](#faq)
-+ [TypeScript](#typescript)
-+ [License](#license)
-
++ [Getting Started](#getting-started)<br>
+|----+ [Dependencies](#dependencies)<br>
+|----+ [Installing](#installing)<br>
+|----+ [Developing](#developing)<br>
+|----+ [Testing](#testing)<br>
+|----+ [Production](#production)<br>
+|----+ [Documentation](#documentation)<br>
++ [Frequently asked questions](#faq)<br>
++ [TypeScript](#typescript)<br>
++ [License](#license)<br>
 
 # Getting Started
 
