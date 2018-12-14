@@ -112,17 +112,17 @@ $ npm start
 
 #### 如何引入外部 angular 库 ?
 
-很简单, 只需要通过 npm 命令来导入所需要在代码. 同时需要在 [bootstrap](https://github.com/preboot/angular-webpack/blob/master/src/main.ts) 中设置外部依赖库。
+很简单, 只需要通过 npm 命令来导入所需要在代码. 同时需要在 [bootstrap](https://github.com/hulu7/Angular2-Webpack/blob/master/src/main.ts) 中设置外部依赖库。
 
 #### 如何引入外部 css 文件象 bootstrap.css ?
 
-只需要通过 [vendor.ts](https://github.com/preboot/angular-webpack/blob/master/src/vendor.ts) 来安装和导入样式文件。以bootstrap为例， 运行命令:
+只需要通过 [vendor.ts](https://github.com/hulu7/Angular2-Webpack/blob/master/src/vendor.ts) 来安装和导入样式文件。以bootstrap为例， 运行命令:
 
 ```sh
 npm install bootstrap@next --save
 ```
 
-同时在 [vendor.ts](https://github.com/preboot/angular-webpack/blob/master/src/vendor.ts) 中加入如下设置:
+同时在 [vendor.ts](https://github.com/hulu7/Angular2-Webpack/blob/master/src/vendor.ts) 中加入如下设置:
 
 ```ts
 import 'bootstrap/dist/css/bootstrap.css';
@@ -145,10 +145,14 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 [MIT](/LICENSE)
 
-联系方式:huiskai@hotmail.com
+# 联系方式
+
+邮箱： huiskai@163.com
+微信：
+![image](https://github.com/hulu7/Angular2-Webpack/blob/master/img/hulu7.PNG)
 
 
-# angular2-webpack created by [@hulu7](https://github.com/hulu7) (Both Chinese and English are supported)
+# angular2-webpack created by [@hulu7](https://github.com/hulu7) (Chinese and English)
 [![Dependency Status](https://david-dm.org/preboot/angular-webpack/status.svg)](https://david-dm.org/preboot/angular-webpack#info=dependencies) [![devDependency Status](https://david-dm.org/preboot/angular-webpack/dev-status.svg)](https://david-dm.org/preboot/angular-webpack#info=devDependencies)
 
 A complete, yet simple, starter for Angular v2+ using Webpack.
@@ -263,17 +267,17 @@ No, Webpack will add all the needed Javascript bundles as script tags and all th
 
 #### How to include external angular libraries ?
 
-It's simple, just install the lib via npm and import it in your code when you need it. Don't forget that you need to configure some external libs in the [bootstrap](https://github.com/preboot/angular-webpack/blob/master/src/main.ts) of your application.
+It's simple, just install the lib via npm and import it in your code when you need it. Don't forget that you need to configure some external libs in the [bootstrap](https://github.com/hulu7/Angular2-Webpack/blob/master/src/main.ts) of your application.
 
 #### How to include external css files such as bootstrap.css ?
 
-Just install the lib and import the css files in [vendor.ts](https://github.com/preboot/angular-webpack/blob/master/src/vendor.ts). For example this is how to do it with bootstrap:
+Just install the lib and import the css files in [vendor.ts](https://github.com/hulu7/Angular2-Webpack/blob/master/src/vendor.ts). For example this is how to do it with bootstrap:
 
 ```sh
 npm install bootstrap@next --save
 ```
 
-And in [vendor.ts](https://github.com/preboot/angular-webpack/blob/master/src/vendor.ts) add the following:
+And in [vendor.ts](https://github.com/hulu7/Angular2-Webpack/blob/master/src/vendor.ts) add the following:
 
 ```ts
 import 'bootstrap/dist/css/bootstrap.css';
@@ -296,4 +300,8 @@ We have good experience using these editors:
 
 [MIT](/LICENSE)
 
-contact:huiskai@hotmail.com
+# Contact
+
+Email: huiskai@163.com
+WeChat: 
+![image](https://github.com/hulu7/Angular2-Webpack/blob/master/img/hulu7.PNG)
