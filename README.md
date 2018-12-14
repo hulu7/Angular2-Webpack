@@ -152,7 +152,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 ![image](https://github.com/hulu7/Angular2-Webpack/blob/master/img/hulu7.PNG)
 
 
-# angular2-webpack created by [@hulu7](https://github.com/hulu7) (Chinese and English)
+# angular2-webpack by [@hulu7](https://github.com/hulu7) (Chinese and English)
 [![Dependency Status](https://david-dm.org/preboot/angular-webpack/status.svg)](https://david-dm.org/preboot/angular-webpack#info=dependencies) [![devDependency Status](https://david-dm.org/preboot/angular-webpack/dev-status.svg)](https://david-dm.org/preboot/angular-webpack#info=devDependencies)
 
 A complete, yet simple, starter for Angular v2+ using Webpack.
