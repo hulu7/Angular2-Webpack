@@ -1,4 +1,4 @@
-# angular2-webpack 创建者[@hulu7](https://github.com/hulu7)
+# angular2-webpack 创建者[@hulu7](https://github.com/hulu7)（支持中文和英文）
 [![引用库的状态](https://david-dm.org/preboot/angular-webpack/status.svg)](https://david-dm.org/preboot/angular-webpack#info=dependencies) [![引用库的状态](https://david-dm.org/preboot/angular-webpack/dev-status.svg)](https://david-dm.org/preboot/angular-webpack#info=devDependencies)
 
 >这是一个完整的针使用Webpack构建Angular 2+版本初学者的入门项目
@@ -18,7 +18,7 @@
 
 ```bash
 # 克隆代码
-$ git clone https://github.com/preboot/angular-webpack.git my-app
+$ git clone https://github.com/hulu7/Angular2-Webpack.git my-app
 
 # 进入项目目录
 $ cd my-app
@@ -44,8 +44,111 @@ $ npm start
 * [TypeScript](#typescript)
 * [许可证](#license)
 
+# 入门
 
-# angular2-webpack created by [@hulu7](https://github.com/hulu7)
+## 安装依赖
+
+运行次应用所需要在依赖:
+* `node` 和 `npm` (使用 [NVM](https://github.com/creationix/nvm))
+* 确保运行的 Node (`v6.x.x`+) 和 NPM (`3.x.x`+) 版本符合要求
+
+## 安装
+
+* `fork` 本代码库
+* `clone` 你的 fork
+* `npm install` 来安装所有依赖文件
+
+## 开发
+
+在完成所有依赖安装之后运行如下命令运行应用:
+
+* `npm start`
+
+项目将启动本地服务器 `webpack-dev-server` ，它将检测代码变化、自动构建（内存中），自动刷新页面。 应用在页面网址是 `http://localhost:8080`.
+
+作为备选项，你可以使用模块热替换 (HMR):
+
+* `npm run start:hmr`
+
+完成所有设置后，你就能修改组件代码实时看到运行结果而不用手动刷新页面。
+
+## 测试
+
+#### 1. 单元测试
+
+* 命令模式: `npm test`
+* 实时模式 (TDD 风格): `npm run test-watch`
+
+#### 2. 端到端测试 (e2e, 集成测试)
+
+* 命令模式:
+  * 窗口1, *如果项目没有启动，请先运行!*: `npm start`
+  * 窗口2, 运行命令: `npm run webdriver-start`
+  * 窗口3, 运行命令: `npm run e2e`
+* 交互模式:
+  * 除了上述命令, 你也可以运行命令: `npm run e2e-live`
+  * 在编写和调试测试用例之前, 你可以在element explorer中直接使用Protractor命令可以避免运行所有在测试用例.
+  * 更多详细信息可以查看 [Protractor Interactive Mode here](https://github.com/angular/protractor/blob/master/docs/debugging.md#testing-out-protractor-interactively)
+
+## 生产环境
+
+构建用于生产环境的代码，可以运行命令:
+
+* `npm run build`
+
+构建之后在生产代码执行文件在目录 `/dist`， 可以该目录下在文件直接部署到服务器上!
+
+## 文档
+
+你也可以运行如下命令生成 api 文档 (基于 [TypeDoc](http://typedoc.org/)):
+
+* `npm run docs`
+
+# FAQ
+
+#### 需要添加 脚本或者链接标签到index.html中吗 ?
+
+不需要， Webpack将自动添加所需要的以脚本标签形式的Javascript bundles和所有链接形式在样式文件。这样在好处在于不需要每次构建都修改index.html文件来更新hash值。
+
+#### 如何引入外部 angular 库 ?
+
+很简单, 只需要通过 npm 命令来导入所需要在代码. 同时需要在 [bootstrap](https://github.com/preboot/angular-webpack/blob/master/src/main.ts) 中设置外部依赖库。
+
+#### 如何引入外部 css 文件象 bootstrap.css ?
+
+只需要通过 [vendor.ts](https://github.com/preboot/angular-webpack/blob/master/src/vendor.ts) 来安装和导入样式文件。以bootstrap为例， 运行命令:
+
+```sh
+npm install bootstrap@next --save
+```
+
+同时在 [vendor.ts](https://github.com/preboot/angular-webpack/blob/master/src/vendor.ts) 中加入如下设置:
+
+```ts
+import 'bootstrap/dist/css/bootstrap.css';
+```
+
+# TypeScript
+
+> 为了充分发挥TypeScript的优势， 你应该为编辑器选择正确在插件。
+
+## 支持TypeScript的编辑器
+
+可选择的编辑器:
+
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Webstorm 11+](https://www.jetbrains.com/webstorm/download/)
+* [Atom](https://atom.io/) with [TypeScript plugin](https://atom.io/packages/atom-typescript)
+* [Sublime Text](http://www.sublimetext.com/3) with [Typescript-Sublime-Plugin](https://github.com/Microsoft/Typescript-Sublime-plugin#installation)
+
+# License
+
+[MIT](/LICENSE)
+
+联系方式:huiskai@hotmail.com
+
+
+# angular2-webpack created by [@hulu7](https://github.com/hulu7) (Both Chinese and English are supported)
 [![Dependency Status](https://david-dm.org/preboot/angular-webpack/status.svg)](https://david-dm.org/preboot/angular-webpack#info=dependencies) [![devDependency Status](https://david-dm.org/preboot/angular-webpack/dev-status.svg)](https://david-dm.org/preboot/angular-webpack#info=devDependencies)
 
 A complete, yet simple, starter for Angular v2+ using Webpack.
@@ -66,7 +169,7 @@ This seed repo serves as an Angular starter for anyone looking to get up and run
 
 ```bash
 # clone our repo
-$ git clone https://github.com/preboot/angular-webpack.git my-app
+$ git clone https://github.com/hulu7/Angular2-Webpack.git my-app
 
 # change directory to your app
 $ cd my-app
