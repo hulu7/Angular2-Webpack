@@ -1,6 +1,51 @@
-# angular2-webpack created by @hulu7
+# angular2-webpack 创建者[@hulu7](https://github.com/hulu7)
+[![引用库的状态](https://david-dm.org/preboot/angular-webpack/status.svg)](https://david-dm.org/preboot/angular-webpack#info=dependencies) [![引用库的状态](https://david-dm.org/preboot/angular-webpack/dev-status.svg)](https://david-dm.org/preboot/angular-webpack#info=devDependencies)
+这是一个完整的针使用Webpack构建Angular 2+版本初学者的入门项目
+
+本项目是一个Angular的入门项目，主要帮助任何打算快速掌握基于TypeScript的Angular的开发人员。本想项目使用[Webpack](http://webpack.github.io/)进行文件和模板的构建。本项目也使用Protractor进行端到端测试，使用Karmar进行单元测试。使用本项目前请了解如下知识：
+* 了解[Angular](https://angular.io/)的文件和架构在最佳实践。
+* 准备支持 [TypeScript](http://www.typescriptlang.org/)的 [Webpack](https://webpack.github.io/docs/)构建环境。
+* 了解 [Jasmine](http://jasmine.github.io/) 和 [Karma](http://karma-runner.github.io/)对Angular进行测试的相关知识。
+* 了解覆盖率测试工具 [Istanbul](https://github.com/gotwarlost/istanbul)。
+* 了解端到端测试框架 [Protractor](https://angular.github.io/protractor/) 进行Angular测试的方法。
+* 了解样式类型 [SASS](http://sass-lang.com/) (非必须, 本项目也支持常规css)。
+* 了解静态代码分析工具 [TSLint](http://palantir.github.io/tslint/) 和 [Codelyzer](https://github.com/mgechev/codelyzer)的使用方法。
+
+>提示: 请确保使用最新版本在 Node.js 和 NPM
+
+### 快速进入项目
+
+```bash
+# 克隆代码
+$ git clone https://github.com/preboot/angular-webpack.git my-app
+
+# 进入项目目录
+$ cd my-app
+
+# 用 npm 安装项目依赖文件
+$ npm install
+
+# 启动本地服务器
+$ npm start
+```
+用浏览器打开 [http://localhost:8080](http://localhost:8080)
+
+# 项目文件结构
+
+* [入口](#getting-started)
+    * [依赖文件](#dependencies)
+    * [安装文件](#installing)
+    * [开发文件](#developing)
+    * [测试代码](#testing)
+    * [生产环境](#production)
+    * [文档](#documentation)
+* [问题和解答](#faq)
+* [TypeScript](#typescript)
+* [许可证](#license)
+
+
+# angular2-webpack created by [@hulu7](https://github.com/hulu7)
 [![Dependency Status](https://david-dm.org/preboot/angular-webpack/status.svg)](https://david-dm.org/preboot/angular-webpack#info=dependencies) [![devDependency Status](https://david-dm.org/preboot/angular-webpack/dev-status.svg)](https://david-dm.org/preboot/angular-webpack#info=devDependencies)
-[![Join the chat at https://gitter.im/preboot/angular-webpack](https://badges.gitter.im/preboot/angular-webpack.svg)](https://gitter.im/preboot/angular-webpack?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 A complete, yet simple, starter for Angular v2+ using Webpack.
 
