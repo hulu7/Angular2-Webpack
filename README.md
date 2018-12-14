@@ -147,8 +147,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 # 联系方式
 
-邮箱： huiskai@163.com
-微信：
+* 邮箱： huiskai@163.com<br>
+* 微信：<br>
 ![image](https://github.com/hulu7/Angular2-Webpack/blob/master/img/hulu7.PNG)
 
 
@@ -302,6 +302,6 @@ We have good experience using these editors:
 
 # Contact
 
-Email: huiskai@163.com
-WeChat: 
-![image](https://github.com/hulu7/Angular2-Webpack/blob/master/img/hulu7.PNG)
+Email: huiskai@163.com<br>
+WeChat: <br>
+![image](https://github.com/hulu7/Angular2-Webpack/blob/master/img/hulu7.PNG)<br>
