@@ -30,18 +30,18 @@ $ npm start
 ```
 用浏览器打开 [http://localhost:8080](http://localhost:8080)
 
-# 项目文件结构
+# 目录
 
-+ [Getting Started](#getting-started)<br>
-|----+ [Dependencies](#dependencies)<br>
-|----+ [Installing](#installing)<br>
-|----+ [Developing](#developing)<br>
-|----+ [Testing](#testing)<br>
-|----+ [Production](#production)<br>
-|----+ [Documentation](#documentation)<br>
-+ [Frequently asked questions](#faq)<br>
-+ [TypeScript](#typescript)<br>
-+ [License](#license)<br>
+* [入门](#getting-started)
+    * [安装依赖](#dependencies)
+    * [安装](#installing)
+    * [开发](#developing)
+    * [测试](#testing)
+    * [生产环境](#production)
+    * [文档](#documentation)
+* [问题和解答](#faq)
+* [TypeScript](#typescript)
+* [许可证](#license)
 
 # 入门
 
@@ -103,7 +103,7 @@ $ npm start
 
 * `npm run docs`
 
-# FAQ
+# 问题和解答
 
 #### 需要添加 脚本或者链接标签到index.html中吗 ?
 
@@ -140,7 +140,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 * [Atom](https://atom.io/) with [TypeScript plugin](https://atom.io/packages/atom-typescript)
 * [Sublime Text](http://www.sublimetext.com/3) with [Typescript-Sublime-Plugin](https://github.com/Microsoft/Typescript-Sublime-plugin#installation)
 
-# License
+# 许可证
 
 [MIT](/LICENSE)
 
@@ -186,16 +186,16 @@ go to [http://localhost:8080](http://localhost:8080) in your browser.
 
 # Table of Contents
 
-+ [Getting Started](#getting-started)<br>
-|----+ [Dependencies](#dependencies)<br>
-|----+ [Installing](#installing)<br>
-|----+ [Developing](#developing)<br>
-|----+ [Testing](#testing)<br>
-|----+ [Production](#production)<br>
-|----+ [Documentation](#documentation)<br>
-+ [Frequently asked questions](#faq)<br>
-+ [TypeScript](#typescript)<br>
-+ [License](#license)<br>
+* [Getting Started](#getting-started)
+    * [Dependencies](#dependencies)
+    * [Installing](#installing)
+    * [Developing](#developing)
+    * [Testing](#testing)
+    * [Production](#production)
+    * [Documentation](#documentation)
+* [Frequently asked questions](#faq)
+* [TypeScript](#typescript)
+* [License](#license)
 
 # Getting Started
 
