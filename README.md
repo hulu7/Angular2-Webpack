@@ -1,6 +1,6 @@
 # angular2-webpack 创建者[@hulu7](https://github.com/hulu7)（支持中文和英文）
 
->这是一个完整的针使用Webpack构建Angular 2+版本初学者的入门项目
+>这是一个完整的针使用Webpack构建Angular 2+版本初学者的入门项目, 本项目即将进行Angular升级，预计升级到最新版本6
 
 本项目是一个Angular的入门项目，主要帮助任何打算快速掌握基于TypeScript的Angular的开发人员。本想项目使用[Webpack](http://webpack.github.io/)进行文件和模板的构建。本项目也使用Protractor进行端到端测试，使用Karmar进行单元测试。使用本项目前请了解如下知识：
 * 了解[Angular](https://angular.io/)的文件和架构在最佳实践。
@@ -153,7 +153,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 # angular2-webpack by [@hulu7](https://github.com/hulu7) (Chinese & English)
 
-A complete, yet simple, starter for Angular v2+ using Webpack.
+A complete, yet simple, starter for Angular v2+ using Webpack. We are plan to update it to latest Angular V6.0
 
 This seed repo serves as an Angular starter for anyone looking to get up and running with Angular and TypeScript fast. Using [Webpack](http://webpack.github.io/) for building our files and assisting with boilerplate. We're also using Protractor for our end-to-end story and Karma for our unit tests.
 * Best practices in file and application organization for [Angular](https://angular.io/).
