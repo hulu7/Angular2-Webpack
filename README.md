@@ -11,7 +11,7 @@
 * 了解样式类型 [SASS](http://sass-lang.com/) (非必须, 本项目也支持常规css)。
 * 了解静态代码分析工具 [TSLint](http://palantir.github.io/tslint/) 和 [Codelyzer](https://github.com/mgechev/codelyzer)的使用方法。
 
->提示: 请确保使用最新版本在 Node.js 和 NPM
+>提示: 请确保使用最新版本的Node.js 和 NPM
 
 ### 快速进入项目
 
